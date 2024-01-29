@@ -26,7 +26,7 @@ Open2.Name = "Tools"
 Open2.Parent = game.CoreGui
 Open2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Open.Name = "Open"
+Open.Name = "打开"
 Open.Parent = Open2
 Open.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Open.Position = UDim2.new(0, 0, 0.451871663, 0)
@@ -41,7 +41,7 @@ Open.MouseButton1Down:Connect(function()
 	FightingGui.Enabled = true
 end)
 
-Close.Name = "Close"
+Close.Name = "RGB颜色"
 Close.Parent = main
 Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Close.Position = UDim2.new(1, 0, -0.226244345, 0)
@@ -75,7 +75,7 @@ Cre.TextScaled = true
 Cre.TextSize = 14.000
 Cre.TextWrapped = true
 
-HitBox.Name = "HitBox"
+HitBox.Name = "范围"
 HitBox.Parent = main
 HitBox.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 HitBox.Position = UDim2.new(0.0586080588, 0, 0.0995475128, 0)
@@ -89,7 +89,7 @@ HitBox.TextScaled = true
 HitBox.TextSize = 14.000
 HitBox.TextWrapped = true
 
-Red.Name = "Red"
+Red.Name = "R值"
 Red.Parent = main
 Red.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Red.Position = UDim2.new(0.485832304, 0, 0.0995475128, 0)
@@ -101,7 +101,7 @@ Red.Text = ""
 Red.TextColor3 = Color3.fromRGB(0, 0, 0)
 Red.TextSize = 14.000
 
-Green.Name = "Green"
+Green.Name = "G值"
 Green.Parent = main
 Green.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 Green.Position = UDim2.new(0.665319502, 0, 0.0995475128, 0)
@@ -124,7 +124,7 @@ TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
-Blue.Name = "Blue"
+Blue.Name = "B值"
 Blue.Parent = main
 Blue.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 Blue.Position = UDim2.new(0.837480664, 0, 0.0995475128, 0)
